@@ -18,6 +18,7 @@ a:hover {
     cursor: pointer;
 }
 
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -532,8 +533,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -677,9 +679,31 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
+.p1{
+    font-size: 25px;
+    font-family: helvetica, sans-serif;
+}
+.p2{
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.p3{
+    font-size: 20px;
+}
+
+.p4{
+    font-size: 18px;
+}
+
+.s1{
+    font-family: sans-serif;
+    font-style: normal;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -705,7 +729,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.4em;
 }
 
