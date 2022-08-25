@@ -511,6 +511,14 @@ button {
     box-shadow: none;
 }
 
+@media screen and (max-width: 767px){
+    .textarea{
+        width: 100%;
+        max-width: 430px;
+    }
+}
+
+
 .scrollToTop {
     width: 40px;
     height: 40px;
